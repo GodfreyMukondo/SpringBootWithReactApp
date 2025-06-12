@@ -1,0 +1,19 @@
+/* Add Job Page */
+.add-job-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-job-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-job-container input,
+.add-job-container textarea {
+  margin-bottom: 15px;
+}
