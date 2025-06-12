@@ -1,0 +1,19 @@
+.job-list-links {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 16px;
+}
+
+.job-list-links a {
+  color: #007bff;                /* Link color */
+  text-decoration: underline;   /* Underline like default links */
+  font-weight: normal;          /* Normal weight */
+  padding: 0;                   /* No button-like padding */
+  background-color: transparent;/* Remove background */
+  border-radius: 0;             /* No rounding */
+}
+
+.job-list-links a:hover {
+  color: #0056b3;               /* Darker on hover */
+  text-decoration: none;        /* Optional: remove underline on hover */
+}

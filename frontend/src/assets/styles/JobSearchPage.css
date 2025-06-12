@@ -1,0 +1,29 @@
+/* Job Search Page */
+.job-search-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-search-container input {
+  width: calc(100% - 22px);
+  margin-bottom: 15px;
+}
+
+.job-search-container button {
+  margin-top: 10px;
+}
+
+.job-search-container ul {
+  margin-top: 20px;
+}
+
+.job-search-container li {
+  background-color: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
