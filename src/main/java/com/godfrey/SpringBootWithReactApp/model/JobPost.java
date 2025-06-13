@@ -12,7 +12,7 @@ public class JobPost {
     @Id
     private String id;
     private String profile;
-    private String description; //  changed from `desc` to `description`
+    private String description;
     private int experience;
     private List<String> techs;
 
