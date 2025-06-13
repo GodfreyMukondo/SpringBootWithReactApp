@@ -44,8 +44,8 @@
   font-size: 16px;
   background-color: white;
   color: black;
-  border: 2px solid black; /* ✅ visible black border */
-  border-radius: 8px;       /* ✅ rounded corners */
+  border: 2px solid black; 
+  border-radius: 8px;       
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
