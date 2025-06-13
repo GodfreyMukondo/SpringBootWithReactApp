@@ -33,7 +33,7 @@ const UpdateJobPage = () => {
       body: JSON.stringify(updatedJobData),
     })
       .then((response) => response.json())
-      .then(() => navigate(`/jobs/${id}`)) // ✅ fixed 'history' to 'navigate'
+      .then(() => navigate(`/jobs/${id}`)) 
       .catch((error) => console.error('Error updating job:', error));
   };
 
