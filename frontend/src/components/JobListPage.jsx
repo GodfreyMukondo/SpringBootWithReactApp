@@ -28,7 +28,7 @@ const JobListPage = () => {
    <div className="job-list-container">
       <h1>Job Listings</h1>
 
-      {/* Wrap links in a container */}
+      /* Wraping links in a container */
         <div className="job-list-links">
           <Link to="/add-job">Add New Job</Link>
           <Link to="/search-jobs">Search Jobs</Link>
